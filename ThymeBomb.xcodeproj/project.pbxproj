@@ -16,7 +16,7 @@
 		C9299DF31393BFDC00075C8E /* ThymeBombMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9299DF21393BFDC00075C8E /* ThymeBombMenuController.m */; };
 		C9299DF61393C0D600075C8E /* ShitClock.png in Resources */ = {isa = PBXBuildFile; fileRef = C9299DF41393C0D600075C8E /* ShitClock.png */; };
 		C9299DF71393C0D600075C8E /* ShitClockHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = C9299DF51393C0D600075C8E /* ShitClockHighlight.png */; };
-		C9299DF91393C44E00075C8E /* ShitClockHuge.png in Resources */ = {isa = PBXBuildFile; fileRef = C9299DF81393C44E00075C8E /* ShitClockHuge.png */; };
+		C9299DFD1393C4FB00075C8E /* ShitClockHuge.png in Resources */ = {isa = PBXBuildFile; fileRef = C9299DFC1393C4FB00075C8E /* ShitClockHuge.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +37,7 @@
 		C9299DF21393BFDC00075C8E /* ThymeBombMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThymeBombMenuController.m; sourceTree = "<group>"; };
 		C9299DF41393C0D600075C8E /* ShitClock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShitClock.png; sourceTree = "<group>"; };
 		C9299DF51393C0D600075C8E /* ShitClockHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShitClockHighlight.png; sourceTree = "<group>"; };
-		C9299DF81393C44E00075C8E /* ShitClockHuge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ShitClockHuge.png; path = ../ShitClockHuge.png; sourceTree = "<group>"; };
+		C9299DFC1393C4FB00075C8E /* ShitClockHuge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShitClockHuge.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +55,7 @@
 		C9299DBD1393BEFC00075C8E = {
 			isa = PBXGroup;
 			children = (
+				C9299DFC1393C4FB00075C8E /* ShitClockHuge.png */,
 				C9299DD21393BEFD00075C8E /* ThymeBomb */,
 				C9299DCB1393BEFD00075C8E /* Frameworks */,
 				C9299DC91393BEFC00075C8E /* Products */,
@@ -105,7 +106,6 @@
 			isa = PBXGroup;
 			children = (
 				C9299DF41393C0D600075C8E /* ShitClock.png */,
-				C9299DF81393C44E00075C8E /* ShitClockHuge.png */,
 				C9299DF51393C0D600075C8E /* ShitClockHighlight.png */,
 				C9299DD41393BEFD00075C8E /* ThymeBomb-Info.plist */,
 				C9299DD51393BEFD00075C8E /* InfoPlist.strings */,
@@ -171,7 +171,7 @@
 				C9299DE31393BEFD00075C8E /* MainMenu.xib in Resources */,
 				C9299DF61393C0D600075C8E /* ShitClock.png in Resources */,
 				C9299DF71393C0D600075C8E /* ShitClockHighlight.png in Resources */,
-				C9299DF91393C44E00075C8E /* ShitClockHuge.png in Resources */,
+				C9299DFD1393C4FB00075C8E /* ShitClockHuge.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +260,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ThymeBomb/ThymeBomb-Prefix.pch";
 				INFOPLIST_FILE = "ThymeBomb/ThymeBomb-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -275,6 +276,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ThymeBomb/ThymeBomb-Prefix.pch";
 				INFOPLIST_FILE = "ThymeBomb/ThymeBomb-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
