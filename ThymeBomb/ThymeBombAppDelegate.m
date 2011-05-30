@@ -17,4 +17,27 @@
     // Insert code here to initialize your application
 }
 
+- (void)awakeFromNib
+{
+    // Make bundle to help find files?
+    NSBundle *bundle = [NSBundle mainBundle];
+    
+    // allocate and load in images
+    statusImage = [[NSImage alloc] initWithContentsOfFile:[bundle pathForResource:@"ShitClock" ofType:@"png"]];
+    statusImageHighlight = [[NSImage alloc] initWithContentsOfFile:[bundle pathForResource:@"ShitClockHighlight" ofType:@"png"]];
+    
+    // make the status bar
+    statusItem = [[[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength] retain];
+    
+    // load the menu
+    [statusItem setMenu:statusMenu];
+    
+    //[statusItem setTitle:@"Status"];
+    // setImage, and setAlternateImage are used to see img instead of txt.
+    [statusItem setImage:statusImage];
+    [statusItem setAlternateImage:statusImageHighlight];
+    
+    //  [statusItem setHighlightMode:YES];
+}
+
 @end

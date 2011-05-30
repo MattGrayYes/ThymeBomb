@@ -11,7 +11,13 @@
 
 @interface ThymeBombMenuController : NSMenu {
 @private
+    NSTimer *timer;
     
 }
+
+- (IBAction)setTimer: (id)pId;
+- (IBAction)stopTimer: (id)pId;
+
+- (void)timerDone;
 
 @end

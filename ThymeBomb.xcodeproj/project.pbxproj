@@ -14,6 +14,8 @@
 		C9299DE01393BEFD00075C8E /* ThymeBombAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9299DDF1393BEFD00075C8E /* ThymeBombAppDelegate.m */; };
 		C9299DE31393BEFD00075C8E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9299DE11393BEFD00075C8E /* MainMenu.xib */; };
 		C9299DF31393BFDC00075C8E /* ThymeBombMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9299DF21393BFDC00075C8E /* ThymeBombMenuController.m */; };
+		C9299DF61393C0D600075C8E /* ShitClock.png in Resources */ = {isa = PBXBuildFile; fileRef = C9299DF41393C0D600075C8E /* ShitClock.png */; };
+		C9299DF71393C0D600075C8E /* ShitClockHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = C9299DF51393C0D600075C8E /* ShitClockHighlight.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		C9299DE21393BEFD00075C8E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		C9299DF11393BFDC00075C8E /* ThymeBombMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThymeBombMenuController.h; sourceTree = "<group>"; };
 		C9299DF21393BFDC00075C8E /* ThymeBombMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThymeBombMenuController.m; sourceTree = "<group>"; };
+		C9299DF41393C0D600075C8E /* ShitClock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShitClock.png; sourceTree = "<group>"; };
+		C9299DF51393C0D600075C8E /* ShitClockHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShitClockHighlight.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 		C9299DD31393BEFD00075C8E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C9299DF41393C0D600075C8E /* ShitClock.png */,
+				C9299DF51393C0D600075C8E /* ShitClockHighlight.png */,
 				C9299DD41393BEFD00075C8E /* ThymeBomb-Info.plist */,
 				C9299DD51393BEFD00075C8E /* InfoPlist.strings */,
 				C9299DD81393BEFD00075C8E /* ThymeBomb-Prefix.pch */,
@@ -160,6 +166,8 @@
 				C9299DD71393BEFD00075C8E /* InfoPlist.strings in Resources */,
 				C9299DDD1393BEFD00075C8E /* Credits.rtf in Resources */,
 				C9299DE31393BEFD00075C8E /* MainMenu.xib in Resources */,
+				C9299DF61393C0D600075C8E /* ShitClock.png in Resources */,
+				C9299DF71393C0D600075C8E /* ShitClockHighlight.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,6 +11,10 @@
 @interface ThymeBombAppDelegate : NSObject <NSApplicationDelegate> {
 @private
     NSWindow *window;
+    IBOutlet NSMenu *statusMenu;
+    NSStatusItem *statusItem;
+    NSImage *statusImage;
+    NSImage *statusImageHighlight;
 }
 
 @property (assign) IBOutlet NSWindow *window;
