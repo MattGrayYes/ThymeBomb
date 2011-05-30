@@ -16,11 +16,11 @@
 		C9299DF31393BFDC00075C8E /* ThymeBombMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9299DF21393BFDC00075C8E /* ThymeBombMenuController.m */; };
 		C9299DF61393C0D600075C8E /* ShitClock.png in Resources */ = {isa = PBXBuildFile; fileRef = C9299DF41393C0D600075C8E /* ShitClock.png */; };
 		C9299DF71393C0D600075C8E /* ShitClockHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = C9299DF51393C0D600075C8E /* ShitClockHighlight.png */; };
-		C9299DFD1393C4FB00075C8E /* ShitClockHuge.png in Resources */ = {isa = PBXBuildFile; fileRef = C9299DFC1393C4FB00075C8E /* ShitClockHuge.png */; };
 		C99B45C613944E96007AC1D9 /* AlarmClock-Ring1.png in Resources */ = {isa = PBXBuildFile; fileRef = C99B45C213944E96007AC1D9 /* AlarmClock-Ring1.png */; };
 		C99B45C713944E96007AC1D9 /* AlarmClock-Active.png in Resources */ = {isa = PBXBuildFile; fileRef = C99B45C313944E96007AC1D9 /* AlarmClock-Active.png */; };
 		C99B45C813944E96007AC1D9 /* AlarmClock-Ring2.png in Resources */ = {isa = PBXBuildFile; fileRef = C99B45C413944E96007AC1D9 /* AlarmClock-Ring2.png */; };
 		C99B45C913944E96007AC1D9 /* AlarmClock-Static.png in Resources */ = {isa = PBXBuildFile; fileRef = C99B45C513944E96007AC1D9 /* AlarmClock-Static.png */; };
+		C99B45CC139457CB007AC1D9 /* 2DCrapAlarmClock.icns in Resources */ = {isa = PBXBuildFile; fileRef = C99B45CB139457CB007AC1D9 /* 2DCrapAlarmClock.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,11 +41,11 @@
 		C9299DF21393BFDC00075C8E /* ThymeBombMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThymeBombMenuController.m; sourceTree = "<group>"; };
 		C9299DF41393C0D600075C8E /* ShitClock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShitClock.png; sourceTree = "<group>"; };
 		C9299DF51393C0D600075C8E /* ShitClockHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShitClockHighlight.png; sourceTree = "<group>"; };
-		C9299DFC1393C4FB00075C8E /* ShitClockHuge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShitClockHuge.png; sourceTree = "<group>"; };
 		C99B45C213944E96007AC1D9 /* AlarmClock-Ring1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AlarmClock-Ring1.png"; sourceTree = "<group>"; };
 		C99B45C313944E96007AC1D9 /* AlarmClock-Active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AlarmClock-Active.png"; sourceTree = "<group>"; };
 		C99B45C413944E96007AC1D9 /* AlarmClock-Ring2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AlarmClock-Ring2.png"; sourceTree = "<group>"; };
 		C99B45C513944E96007AC1D9 /* AlarmClock-Static.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AlarmClock-Static.png"; sourceTree = "<group>"; };
+		C99B45CB139457CB007AC1D9 /* 2DCrapAlarmClock.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = 2DCrapAlarmClock.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +63,7 @@
 		C9299DBD1393BEFC00075C8E = {
 			isa = PBXGroup;
 			children = (
-				C9299DFC1393C4FB00075C8E /* ShitClockHuge.png */,
+				C99B45CB139457CB007AC1D9 /* 2DCrapAlarmClock.icns */,
 				C9299DD21393BEFD00075C8E /* ThymeBomb */,
 				C9299DCB1393BEFD00075C8E /* Frameworks */,
 				C9299DC91393BEFC00075C8E /* Products */,
@@ -183,11 +183,11 @@
 				C9299DE31393BEFD00075C8E /* MainMenu.xib in Resources */,
 				C9299DF61393C0D600075C8E /* ShitClock.png in Resources */,
 				C9299DF71393C0D600075C8E /* ShitClockHighlight.png in Resources */,
-				C9299DFD1393C4FB00075C8E /* ShitClockHuge.png in Resources */,
 				C99B45C613944E96007AC1D9 /* AlarmClock-Ring1.png in Resources */,
 				C99B45C713944E96007AC1D9 /* AlarmClock-Active.png in Resources */,
 				C99B45C813944E96007AC1D9 /* AlarmClock-Ring2.png in Resources */,
 				C99B45C913944E96007AC1D9 /* AlarmClock-Static.png in Resources */,
+				C99B45CC139457CB007AC1D9 /* 2DCrapAlarmClock.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

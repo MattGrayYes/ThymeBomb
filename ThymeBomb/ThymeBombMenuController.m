@@ -32,7 +32,15 @@
         case 60:
             duration = tag*minutes;
             break;
-            
+        
+        // case on the hour:
+            // grab the time,
+            // if more than 1 min to go
+                // work out the minutes to the hour -0.5s
+            // else
+                // work out the minutes to the next hour -0.5s
+            // set that to the duration
+            // break;
             
         default:
             duration = 1;
