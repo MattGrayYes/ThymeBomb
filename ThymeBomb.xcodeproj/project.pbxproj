@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9299DCD1393BEFD00075C8E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9299DCC1393BEFD00075C8E /* Cocoa.framework */; };
+		C9299DD71393BEFD00075C8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9299DD51393BEFD00075C8E /* InfoPlist.strings */; };
+		C9299DDA1393BEFD00075C8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9299DD91393BEFD00075C8E /* main.m */; };
+		C9299DDD1393BEFD00075C8E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C9299DDB1393BEFD00075C8E /* Credits.rtf */; };
+		C9299DE01393BEFD00075C8E /* ThymeBombAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9299DDF1393BEFD00075C8E /* ThymeBombAppDelegate.m */; };
+		C9299DE31393BEFD00075C8E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9299DE11393BEFD00075C8E /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C9299DC81393BEFC00075C8E /* ThymeBomb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThymeBomb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9299DCC1393BEFD00075C8E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C9299DCF1393BEFD00075C8E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C9299DD01393BEFD00075C8E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C9299DD11393BEFD00075C8E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C9299DD41393BEFD00075C8E /* ThymeBomb-Info.plist */ = {isa = PBXFileReference; path = "ThymeBomb-Info.plist"; sourceTree = "<group>"; };
+		C9299DD61393BEFD00075C8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9299DD81393BEFD00075C8E /* ThymeBomb-Prefix.pch */ = {isa = PBXFileReference; path = "ThymeBomb-Prefix.pch"; sourceTree = "<group>"; };
+		C9299DD91393BEFD00075C8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9299DDC1393BEFD00075C8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C9299DDE1393BEFD00075C8E /* ThymeBombAppDelegate.h */ = {isa = PBXFileReference; path = ThymeBombAppDelegate.h; sourceTree = "<group>"; };
+		C9299DDF1393BEFD00075C8E /* ThymeBombAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThymeBombAppDelegate.m; sourceTree = "<group>"; };
+		C9299DE21393BEFD00075C8E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9299DC51393BEFC00075C8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9299DCD1393BEFD00075C8E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9299DBD1393BEFC00075C8E = {
+			isa = PBXGroup;
+			children = (
+				C9299DD21393BEFD00075C8E /* ThymeBomb */,
+				C9299DCB1393BEFD00075C8E /* Frameworks */,
+				C9299DC91393BEFC00075C8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9299DC91393BEFC00075C8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9299DC81393BEFC00075C8E /* ThymeBomb.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9299DCB1393BEFD00075C8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9299DCC1393BEFD00075C8E /* Cocoa.framework */,
+				C9299DCE1393BEFD00075C8E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9299DCE1393BEFD00075C8E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9299DCF1393BEFD00075C8E /* AppKit.framework */,
+				C9299DD01393BEFD00075C8E /* CoreData.framework */,
+				C9299DD11393BEFD00075C8E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C9299DD21393BEFD00075C8E /* ThymeBomb */ = {
+			isa = PBXGroup;
+			children = (
+				C9299DDE1393BEFD00075C8E /* ThymeBombAppDelegate.h */,
+				C9299DDF1393BEFD00075C8E /* ThymeBombAppDelegate.m */,
+				C9299DE11393BEFD00075C8E /* MainMenu.xib */,
+				C9299DD31393BEFD00075C8E /* Supporting Files */,
+			);
+			path = ThymeBomb;
+			sourceTree = "<group>";
+		};
+		C9299DD31393BEFD00075C8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9299DD41393BEFD00075C8E /* ThymeBomb-Info.plist */,
+				C9299DD51393BEFD00075C8E /* InfoPlist.strings */,
+				C9299DD81393BEFD00075C8E /* ThymeBomb-Prefix.pch */,
+				C9299DD91393BEFD00075C8E /* main.m */,
+				C9299DDB1393BEFD00075C8E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9299DC71393BEFC00075C8E /* ThymeBomb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9299DE61393BEFD00075C8E /* Build configuration list for PBXNativeTarget "ThymeBomb" */;
+			buildPhases = (
+				C9299DC41393BEFC00075C8E /* Sources */,
+				C9299DC51393BEFC00075C8E /* Frameworks */,
+				C9299DC61393BEFC00075C8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThymeBomb;
+			productName = ThymeBomb;
+			productReference = C9299DC81393BEFC00075C8E /* ThymeBomb.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9299DBF1393BEFC00075C8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = mattg.co.uk;
+			};
+			buildConfigurationList = C9299DC21393BEFC00075C8E /* Build configuration list for PBXProject "ThymeBomb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C9299DBD1393BEFC00075C8E;
+			productRefGroup = C9299DC91393BEFC00075C8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9299DC71393BEFC00075C8E /* ThymeBomb */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9299DC61393BEFC00075C8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9299DD71393BEFD00075C8E /* InfoPlist.strings in Resources */,
+				C9299DDD1393BEFD00075C8E /* Credits.rtf in Resources */,
+				C9299DE31393BEFD00075C8E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9299DC41393BEFC00075C8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9299DDA1393BEFD00075C8E /* main.m in Sources */,
+				C9299DE01393BEFD00075C8E /* ThymeBombAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C9299DD51393BEFD00075C8E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9299DD61393BEFD00075C8E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C9299DDB1393BEFD00075C8E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9299DDC1393BEFD00075C8E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C9299DE11393BEFD00075C8E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9299DE21393BEFD00075C8E /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9299DE41393BEFD00075C8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C9299DE51393BEFD00075C8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C9299DE71393BEFD00075C8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThymeBomb/ThymeBomb-Prefix.pch";
+				INFOPLIST_FILE = "ThymeBomb/ThymeBomb-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C9299DE81393BEFD00075C8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThymeBomb/ThymeBomb-Prefix.pch";
+				INFOPLIST_FILE = "ThymeBomb/ThymeBomb-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9299DC21393BEFC00075C8E /* Build configuration list for PBXProject "ThymeBomb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9299DE41393BEFD00075C8E /* Debug */,
+				C9299DE51393BEFD00075C8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9299DE61393BEFD00075C8E /* Build configuration list for PBXNativeTarget "ThymeBomb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9299DE71393BEFD00075C8E /* Debug */,
+				C9299DE81393BEFD00075C8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9299DBF1393BEFC00075C8E /* Project object */;
+}
