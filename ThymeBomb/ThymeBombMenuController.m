@@ -23,6 +23,7 @@
     float minutes = 60;
     
     switch (tag) {
+        case 1:
         case 5:
         case 10:
         case 15:
@@ -39,7 +40,7 @@
     }
     
     NSLog(@"Duration: %f", duration);
-    timer = [NSTimer scheduledTimerWithTimeInterval:5 target:self selector:@selector(timerDone) userInfo:nil repeats:NO];
+    timer = [NSTimer scheduledTimerWithTimeInterval:duration target:self selector:@selector(timerDone) userInfo:nil repeats:NO];
     
 }
 
