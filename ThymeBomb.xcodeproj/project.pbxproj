@@ -13,6 +13,7 @@
 		C9299DDD1393BEFD00075C8E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C9299DDB1393BEFD00075C8E /* Credits.rtf */; };
 		C9299DE01393BEFD00075C8E /* ThymeBombAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9299DDF1393BEFD00075C8E /* ThymeBombAppDelegate.m */; };
 		C9299DE31393BEFD00075C8E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9299DE11393BEFD00075C8E /* MainMenu.xib */; };
+		C9299DF31393BFDC00075C8E /* ThymeBombMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9299DF21393BFDC00075C8E /* ThymeBombMenuController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +22,16 @@
 		C9299DCF1393BEFD00075C8E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		C9299DD01393BEFD00075C8E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		C9299DD11393BEFD00075C8E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		C9299DD41393BEFD00075C8E /* ThymeBomb-Info.plist */ = {isa = PBXFileReference; path = "ThymeBomb-Info.plist"; sourceTree = "<group>"; };
+		C9299DD41393BEFD00075C8E /* ThymeBomb-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ThymeBomb-Info.plist"; sourceTree = "<group>"; };
 		C9299DD61393BEFD00075C8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C9299DD81393BEFD00075C8E /* ThymeBomb-Prefix.pch */ = {isa = PBXFileReference; path = "ThymeBomb-Prefix.pch"; sourceTree = "<group>"; };
+		C9299DD81393BEFD00075C8E /* ThymeBomb-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ThymeBomb-Prefix.pch"; sourceTree = "<group>"; };
 		C9299DD91393BEFD00075C8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C9299DDC1393BEFD00075C8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		C9299DDE1393BEFD00075C8E /* ThymeBombAppDelegate.h */ = {isa = PBXFileReference; path = ThymeBombAppDelegate.h; sourceTree = "<group>"; };
+		C9299DDE1393BEFD00075C8E /* ThymeBombAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThymeBombAppDelegate.h; sourceTree = "<group>"; };
 		C9299DDF1393BEFD00075C8E /* ThymeBombAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThymeBombAppDelegate.m; sourceTree = "<group>"; };
 		C9299DE21393BEFD00075C8E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C9299DF11393BFDC00075C8E /* ThymeBombMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThymeBombMenuController.h; sourceTree = "<group>"; };
+		C9299DF21393BFDC00075C8E /* ThymeBombMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThymeBombMenuController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 			children = (
 				C9299DDE1393BEFD00075C8E /* ThymeBombAppDelegate.h */,
 				C9299DDF1393BEFD00075C8E /* ThymeBombAppDelegate.m */,
+				C9299DF11393BFDC00075C8E /* ThymeBombMenuController.h */,
+				C9299DF21393BFDC00075C8E /* ThymeBombMenuController.m */,
 				C9299DE11393BEFD00075C8E /* MainMenu.xib */,
 				C9299DD31393BEFD00075C8E /* Supporting Files */,
 			);
@@ -167,6 +172,7 @@
 			files = (
 				C9299DDA1393BEFD00075C8E /* main.m in Sources */,
 				C9299DE01393BEFD00075C8E /* ThymeBombAppDelegate.m in Sources */,
+				C9299DF31393BFDC00075C8E /* ThymeBombMenuController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
