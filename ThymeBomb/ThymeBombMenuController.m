@@ -39,7 +39,7 @@
             break;
     }
     
-    NSLog(@"Duration: %f", duration);
+    NSLog(@"Timing for: %f seconds", duration);
     timer = [NSTimer scheduledTimerWithTimeInterval:duration target:self selector:@selector(timerDone) userInfo:nil repeats:NO];
     
 }

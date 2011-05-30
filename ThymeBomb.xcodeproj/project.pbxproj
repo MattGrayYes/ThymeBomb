@@ -17,6 +17,10 @@
 		C9299DF61393C0D600075C8E /* ShitClock.png in Resources */ = {isa = PBXBuildFile; fileRef = C9299DF41393C0D600075C8E /* ShitClock.png */; };
 		C9299DF71393C0D600075C8E /* ShitClockHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = C9299DF51393C0D600075C8E /* ShitClockHighlight.png */; };
 		C9299DFD1393C4FB00075C8E /* ShitClockHuge.png in Resources */ = {isa = PBXBuildFile; fileRef = C9299DFC1393C4FB00075C8E /* ShitClockHuge.png */; };
+		C99B45C613944E96007AC1D9 /* AlarmClock-Ring1.png in Resources */ = {isa = PBXBuildFile; fileRef = C99B45C213944E96007AC1D9 /* AlarmClock-Ring1.png */; };
+		C99B45C713944E96007AC1D9 /* AlarmClock-Active.png in Resources */ = {isa = PBXBuildFile; fileRef = C99B45C313944E96007AC1D9 /* AlarmClock-Active.png */; };
+		C99B45C813944E96007AC1D9 /* AlarmClock-Ring2.png in Resources */ = {isa = PBXBuildFile; fileRef = C99B45C413944E96007AC1D9 /* AlarmClock-Ring2.png */; };
+		C99B45C913944E96007AC1D9 /* AlarmClock-Static.png in Resources */ = {isa = PBXBuildFile; fileRef = C99B45C513944E96007AC1D9 /* AlarmClock-Static.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +42,10 @@
 		C9299DF41393C0D600075C8E /* ShitClock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShitClock.png; sourceTree = "<group>"; };
 		C9299DF51393C0D600075C8E /* ShitClockHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShitClockHighlight.png; sourceTree = "<group>"; };
 		C9299DFC1393C4FB00075C8E /* ShitClockHuge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShitClockHuge.png; sourceTree = "<group>"; };
+		C99B45C213944E96007AC1D9 /* AlarmClock-Ring1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AlarmClock-Ring1.png"; sourceTree = "<group>"; };
+		C99B45C313944E96007AC1D9 /* AlarmClock-Active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AlarmClock-Active.png"; sourceTree = "<group>"; };
+		C99B45C413944E96007AC1D9 /* AlarmClock-Ring2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AlarmClock-Ring2.png"; sourceTree = "<group>"; };
+		C99B45C513944E96007AC1D9 /* AlarmClock-Static.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AlarmClock-Static.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +113,10 @@
 		C9299DD31393BEFD00075C8E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C99B45C513944E96007AC1D9 /* AlarmClock-Static.png */,
+				C99B45C313944E96007AC1D9 /* AlarmClock-Active.png */,
+				C99B45C213944E96007AC1D9 /* AlarmClock-Ring1.png */,
+				C99B45C413944E96007AC1D9 /* AlarmClock-Ring2.png */,
 				C9299DF41393C0D600075C8E /* ShitClock.png */,
 				C9299DF51393C0D600075C8E /* ShitClockHighlight.png */,
 				C9299DD41393BEFD00075C8E /* ThymeBomb-Info.plist */,
@@ -172,6 +184,10 @@
 				C9299DF61393C0D600075C8E /* ShitClock.png in Resources */,
 				C9299DF71393C0D600075C8E /* ShitClockHighlight.png in Resources */,
 				C9299DFD1393C4FB00075C8E /* ShitClockHuge.png in Resources */,
+				C99B45C613944E96007AC1D9 /* AlarmClock-Ring1.png in Resources */,
+				C99B45C713944E96007AC1D9 /* AlarmClock-Active.png in Resources */,
+				C99B45C813944E96007AC1D9 /* AlarmClock-Ring2.png in Resources */,
+				C99B45C913944E96007AC1D9 /* AlarmClock-Static.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +317,7 @@
 				C9299DE81393BEFD00075C8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

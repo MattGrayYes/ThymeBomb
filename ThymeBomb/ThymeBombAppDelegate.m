@@ -23,8 +23,8 @@
     NSBundle *bundle = [NSBundle mainBundle];
     
     // allocate and load in images
-    statusImage = [[NSImage alloc] initWithContentsOfFile:[bundle pathForResource:@"ShitClock" ofType:@"png"]];
-    statusImageHighlight = [[NSImage alloc] initWithContentsOfFile:[bundle pathForResource:@"ShitClockHighlight" ofType:@"png"]];
+    statusImage = [[[NSImage alloc] initWithContentsOfFile:[bundle pathForResource:@"AlarmClock-Static" ofType:@"png"]] autorelease];
+    statusImageHighlight = [[[NSImage alloc] initWithContentsOfFile:[bundle pathForResource:@"AlarmClock-Active" ofType:@"png"]] autorelease];
     
     // make the status bar
     statusItem = [[[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength] retain];
@@ -37,7 +37,7 @@
     [statusItem setImage:statusImage];
     [statusItem setAlternateImage:statusImageHighlight];
     
-    //  [statusItem setHighlightMode:YES];
+    [statusItem setHighlightMode:YES];
 }
 
 @end
