@@ -13,7 +13,7 @@ By downloading it, you agree to not hold me liable for any bad stuff happening t
 
 ### Requirements
 
-Only tested on Snow Leopard (10.6.7).
+Seems to work OK on Snow Leopard (10.6.7) and Lion (10.7.3).
 
 ### Download / Install
 
