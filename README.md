@@ -2,6 +2,7 @@ Thyme Bomb
 ==========
 
 Little reminders on Mac OS X for procrastinators, obsessives, and those who just spend too long on one thing at a time.
+Click one of the time intervals in the menu, and once it has elapsed, a sound will play. That's it.
 
 Download
 --------
@@ -13,7 +14,7 @@ By downloading it, you agree to not hold me liable for any bad stuff happening t
 
 ### Requirements
 
-Seems to work OK on Snow Leopard (10.6.7) and Lion (10.7.3).
+Seems to work OK on Snow Leopard, Lion, Mountain Lion, and Mavericks.
 
 ### Download / Install
 
